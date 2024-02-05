@@ -33,7 +33,7 @@ $textParagraphModified = str_replace($badWord, '***', $textParagraph);
                 TESTO MODIFICATO
             </label>
 
-            <p><?php echo str_replace($badWord, '***', $textParagraph)?></p>
+            <p><?php echo $textParagraphModified?></p>
         </div>
         
         <div>
